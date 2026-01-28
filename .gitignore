@@ -2,7 +2,7 @@ node_modules/
 functions/node_modules/
 web/node_modules/
 web/dist/
-functions/lib/
+firebase-functions/lib/
 **/tsconfig.tsbuildinfo
 .env
 .env.*
