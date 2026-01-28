@@ -1,0 +1,7 @@
+{
+  "name": "website-for-study-root",
+  "private": true,
+  "scripts": {
+    "pages:build": "cd web && npm install && npm run build"
+  }
+}
