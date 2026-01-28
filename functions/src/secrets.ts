@@ -24,7 +24,7 @@ function normalizeSecretName(name: string): string {
 
 export async function getSecretValue(name: string): Promise<string> {
   const secretName = normalizeSecretName(name);
-  const [version] = await client.accessSecretVersion({ name: secretName });
+  const [version] = await (client as any).accessSecretVersion({ name: secretName });
   const data = version.payload?.data?.toString('utf-8') ?? '';
   if (!data) throw new Error(`Secret ${name} is empty`);
   return data;

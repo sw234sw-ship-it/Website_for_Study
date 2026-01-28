@@ -32,7 +32,10 @@ export async function fetchArticlesByTopic(topic: Article['topic']) {
     limit(30)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => ({ id: d.id, ...(d.data() as Article) }));
+  return snap.docs.map((d: any) => ({
+    id: d.id,
+    ...(d.data() as Article)
+  }));
 }
 
 export async function fetchArticleById(id: string) {

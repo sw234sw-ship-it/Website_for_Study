@@ -21,6 +21,7 @@
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
+    "@types/xml2js": "^0.4.14",
     "@types/cheerio": "^0.22.35",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
