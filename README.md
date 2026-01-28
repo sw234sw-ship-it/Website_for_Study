@@ -7,7 +7,7 @@
 ## Setup
 ```bash
 # From repo root
-cd functions
+cd firebase-functions
 npm install
 
 cd ../web
@@ -58,7 +58,7 @@ firebase emulators:start
 1) Put real RSS URLs in `config/rss_feeds.json`
 2) Build functions
 ```bash
-cd functions
+cd firebase-functions
 npm run build
 ```
 3) Trigger scheduled function manually from emulator UI
@@ -78,7 +78,7 @@ npm run dev
 ## Build & deploy
 ```bash
 # Build functions
-cd functions
+cd firebase-functions
 npm run build
 
 # Build web
