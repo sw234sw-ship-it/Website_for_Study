@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "google"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["lib/**"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "max-len": ["error", { "code": 120 }]
+  }
+}

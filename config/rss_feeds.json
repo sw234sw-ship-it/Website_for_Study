@@ -1,0 +1,5 @@
+{
+  "macro": ["<RSS_URL_1>", "<RSS_URL_2>"],
+  "ai": ["<RSS_URL_1>", "<RSS_URL_2>"],
+  "battery": ["<RSS_URL_1>", "<RSS_URL_2>"]
+}
